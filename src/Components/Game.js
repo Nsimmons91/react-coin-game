@@ -1,4 +1,4 @@
-Game
+
 import React, { useState } from "react";
 import Player from "./Player";
 import ScoreBoard from "./ScoreBoard";
