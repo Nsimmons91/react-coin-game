@@ -25,20 +25,17 @@
 // export default App;
 
 import React from "react";
-import ReactDOM from "react-dom";
 import Game from "./Game";
 import "./styles.css";
 
 const App = () => {
   return (
-    <>
-      <h1 style={{ textAlign: "center" }}>Rock Paper Scissors</h1>
-      <Game />
-    </>
+      <div className= "app">
+        <Game/>
+      </div>
+    
   );
 };
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
-
+export default App;
 

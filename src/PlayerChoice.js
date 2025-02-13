@@ -1,13 +1,13 @@
 import React from "react";
-import scissors from "../assets/scissors.png";
-import paper from "../assets/paper.png";
-import rock from "../assets/rock.jpg";
+import scissors from "./scissors.png";
+import paper from "./paper.png";
+import rock from "./rock.jpg";
 
 const PlayerChoice = ({ onChoice }) => {
   const choices = [
-   { name: "rock", image: rockImage},
-   { name: "paper", image: paperImage},
-   { name: "scissors", image: scissorsImage}
+   { name: "rock", image: rock.jpg},
+   { name: "paper", image: paper.png},
+   { name: "scissors", image: scissors.png}
   ];
   return (
     <div className="player-choice">
@@ -24,5 +24,5 @@ const PlayerChoice = ({ onChoice }) => {
   );
 };
 
-export default PlayerChoice;
+ export default PlayerChoice;
   
